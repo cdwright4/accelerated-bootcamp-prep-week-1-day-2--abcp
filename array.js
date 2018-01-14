@@ -4,7 +4,7 @@ function addElementToBeginningOfArray(array, element) {
  //var newArray = array.unshift(element);
  //return newArray;
  return [element,...array];
-}
+} //WRONG. make sure to add the spread operator
 
 function destructivelyAddElementToBeginningOfArray(array, element){
   // add element to the beginning of the array by mutating the array
@@ -12,11 +12,13 @@ function destructivelyAddElementToBeginningOfArray(array, element){
   return array.unshift(element);
   
   
-}
+} //CORRECT 
 
 function addElementToEndOfArray(array, element) {
   
-  var newArray = array.push(element)
+  //var newArray = array.push(element)
+  
+  return [...array,element];
 
 }
 
