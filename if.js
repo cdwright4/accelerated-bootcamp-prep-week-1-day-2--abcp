@@ -6,7 +6,7 @@
 
 function newFunction (num1) {
   
-  if (num1 > 10){
+  if (num1 >= 10){
     return num1;
   }
   else {
