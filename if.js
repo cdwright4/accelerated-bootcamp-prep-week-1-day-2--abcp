@@ -10,7 +10,7 @@ function newFunction (num1) {
     return num1;
   }
   else {
-    return "Sorry"!;
+    return "Sorry!";
   }
 }
 
