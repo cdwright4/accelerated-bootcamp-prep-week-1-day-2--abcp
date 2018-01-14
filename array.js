@@ -20,13 +20,14 @@ function addElementToEndOfArray(array, element) {
   
   return [...array,element];
 
-}
+} //WRONG. USE SPREAD OPERATOR
 
 function destructivelyAddElementToEndOfArray(array, element) {
   
-  return array.push(element);
+  array.push(element);
+  return  array;
 
-}
+} //RETURN THE ARRAY, NOT THE LENGTH OF THE ARRAY.
 
 function accessElementInArray(array, index) {
   
