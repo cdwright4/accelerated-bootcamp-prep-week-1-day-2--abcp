@@ -36,6 +36,9 @@ function accessElementInArray(array, index) {
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(array) {
+  
+  array.push();
+  return array;
 
 }
 
